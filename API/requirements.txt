@@ -1,0 +1,9 @@
+flask==3.1.2
+flask-cors==6.0.2              
+flask-limiter==3.11.0
+flask-swagger==0.2.14
+scikit-learn==1.5.1
+numpy==1.26.4
+pandas==2.3.3
+pickleshare==0.7.5
+gunicorn==23.0.0

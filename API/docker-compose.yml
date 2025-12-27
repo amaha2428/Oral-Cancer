@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  oral-cancer-api:
+    image: amaha24/oral-cancer-api:latest
+    container_name: oral_cancer_api
+    ports:
+      - "5555:5555"
+    restart: unless-stopped
